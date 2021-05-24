@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+	background-color: #CCCCFF;
+}
+
+h1
+{
+    width: 148px;
+    height: 36px;
+    background: url(https://www.handong.edu/site/handong-en/v1/res/img/m_logo.png) no-repeat top;
+    text-indent: -99999px;
+}
+div {
+	overflow-x: auto;
+}
+
+table {
+	width: 100%;
+	min-width: 500px;
+}
+
+td {
+	padding: 20px;
+	border: 1px solid #444444;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	font-family: 'Trebuchet MS';
+}
+
+td, th {
+	font-size: 10pt;
+	border: 1px solid #98bf21;
+	height: 30px;
+}
+
+th {
+	background-color: #A7C942;
+	color: #ffffff;
+	font-family: Georgia;
+}
+
+tr.alt td {
+	color: #000000;
+	background-color: #EAF2D3;
+}

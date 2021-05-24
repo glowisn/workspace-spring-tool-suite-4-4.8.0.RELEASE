@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Complain">
+
+	<insert id="insertComplain">
+		insert into COMPLAIN (type, name, context) values
+		(#{type} , #{name} , #{context})
+	</insert>
+	<update id="updateComplain">
+		update COMPLAIN
+		set type=#{type}, name=#{name}, context=#{context} where seq=#{seq}
+	</update>
+	<delete id="deleteComplain">
+		delete from COMPLAIN where seq=#{seq}
+	</delete>
+	<select id="getComplain" resultType="complain">
+		select * from COMPLAIN where seq=#{seq}
+	</select>
+	<select id="getComplainList" resultType="complain">
+		select * from COMPLAIN order by seq desc
+	</select>
+	
+</mapper>

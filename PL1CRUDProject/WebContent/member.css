@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('./img/purple_back.jpg');
+	backgorund-repeat: no-repeat;
+	background-position: center top;
+	background-size: 50% auto;
+	background-color: #FFCCFF;
+	}
+	
+#header{
+	display:block;
+}
+h1{
+	width:800px;
+	margin: 0 auto;
+	text-align:center;
+	background-color: lightgreen;
+	font-weight:bold;
+	border-radius:10px;
+}
+table{
+	border-collapse: collapse;
+	background-color: lightyellow;
+	text-align:left;
+	line-height:1.5;
+	border: 1px solid #ccc;
+	margin: 20px 10px;
+}
+table th{
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #ff80c0;
+}
+table .even{
+	background: #efefef;
+}

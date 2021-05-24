@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+	background-image : url('headshot.png');
+}
+table{
+	background-color : #444444;
+	border : 3px solid white;
+	border-radius : 20px;
+	color: white;
+}
+caption{
+	font-size: 32px;
+	font-weight: bold;
+	line-height : 150%;
+}
+th{height: 15px; padding : 10px;}
+tr,th{
+	border : 1px solid white;
+}
